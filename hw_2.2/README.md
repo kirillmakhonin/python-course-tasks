@@ -25,7 +25,7 @@ result = query(​​​
     field_filter('gender', ['Мужской']),​​​
 )​
 print(result) # [{'name': 'Сэм', 'gender': 'Мужской', 'sport': 'Баскетбол'}, ​​​​]
-​```
+```
 
 ## Deadline
 **02.04.2018**
