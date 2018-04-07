@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def code_recursive(string: str) -> int:
-    """Transforms string into number with sybols' UTF codes
+    """Transforms string into number with symbols' UTF codes
     
     :param str string: string to transform
     :rtype: int
