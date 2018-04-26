@@ -37,12 +37,12 @@ python download.py urllist.txt --dir=thumbnails/ --threads=4 --size=128x128
 
 ## Подсказки
 1. Для парсинга аргументов командной строки можно использовать модуль `argparse` из стандартной
-библиотеки https://docs.python.org/3/library/argparse.html
+библиотеки https://docs.python.org/3/library/argparse.html.
 2. Для скачивания файлов можно использовать встроенную библиотеку `urllib`
 https://docs.python.org/3/library/urllib.html
 3. Для обработки изображений можно использовать стороннюю библиотеку `Pillow`
 https://pillow.readthedocs.io/en/5.1.x/
-4. Для управления потоками можно использовать `ProcessPool` из стандартной библиотеки,
+4. Для управления потоками можно использовать `ThreadPool` из стандартной библиотеки,
 для передачи данных между потоками - `Queue`. Не забывайте про потокобезопасность.
 
 
