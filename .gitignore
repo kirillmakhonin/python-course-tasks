@@ -15,6 +15,7 @@
 .idea/**/uiDesigner.xml
 
 # Python:
+*.pyc
 
 # Vim:
 *.swo
