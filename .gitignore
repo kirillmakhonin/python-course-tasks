@@ -14,6 +14,14 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
+# Python:
+*.pyc
+
+# Vim:
+*.swo
+*.swp
+*.swn
+
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
